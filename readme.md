@@ -4,7 +4,7 @@ Welcome to the **C/C++ Code Compiler** project! This compiler allows you to run 
 
 ## Table of Contents
 - [Installation on Android (Termux)](#installation-on-android-termux)
-- [Installation on Windows](#installation-on-CMD)
+- [Installation on CMD (Windows)](#installation-on-CMD)
 - [Usage](#usage)
 
 ---
