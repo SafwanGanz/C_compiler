@@ -23,3 +23,18 @@ Follow these steps to set up the compiler on your Android device using Termux:
    Run the following commands to update and upgrade existing packages:
    ```bash
    pkg update && pkg upgrade
+
+4. **Install Git**  
+   Run the following command to install git
+   ```bash
+   pkg install git
+
+5. **Npm (Node package Manager) Install**  
+   Install Dependencies:
+   ```bash
+   npm install
+
+6. **Start The Server**
+   After installing Dependencies:
+   ```bash
+   npm start
