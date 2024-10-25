@@ -1,5 +1,5 @@
 {
-  "name": "C/C++_compiler",
+  "name": "C_compiler",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
