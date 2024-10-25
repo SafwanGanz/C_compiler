@@ -1,6 +1,6 @@
 # C/C++ Code Compiler
 
-Welcome to the **C/C++ Code Compiler** project! This compiler allows you to run C/C++ code seamlessly in your environment. Below are the instructions for installation on both Android (using Termux) and Windows.
+Welcome to the **C/C++ Code Compiler** project! This compiler allows you to run C/C++ code seamlessly in your environment. Below are the instructions for installation on both Android (using Termux) and Windows, Linux.
 
 ## Table of Contents
 - [Installation on Android (Termux)](#installation-on-android-termux)
