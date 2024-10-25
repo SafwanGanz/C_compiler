@@ -60,4 +60,8 @@ Follow these steps to set up the compiler on your Android device using Termux:
 
 Follow these steps to set up the compiler on your Windows os using CMD:
 
+* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
+* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
+
+  
 ---
