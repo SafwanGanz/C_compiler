@@ -23,36 +23,43 @@ Follow these steps to set up the compiler on your Android device using Termux:
    Run the following commands to update and upgrade existing packages:
    ```bash
    pkg update && pkg upgrade
+   ```
 
 4. **Install Git**  
    Run the following command to install git
    ```bash
    pkg install git
+   ```
 
 5. **Install Nodejs**
    Install Nodejs on termux:
    ```bash
    apt install nodejs -y
+   ```
    
 6. **Clone the repository**
    Clone the C/C++ compiler repository:
    ```bash
    git clone https://github.com/SafwanGanz/C_compiler.git
+   ```
 
 7. **Navigate to the Project Directory**
    Change to the project directory:
    ```bash
    cd C_compiler
+   ```
    
 8. **Npm (Node package Manager) Install**  
    Install the necessary Node.js packages:
    ```bash
    npm install
+   ```
 
 9. **Start The Server**
    After installing Dependencies:
    ```bash
    npm start
+   ```
 
 ---
 
