@@ -53,3 +53,7 @@ Follow these steps to set up the compiler on your Android device using Termux:
    After installing Dependencies:
    ```bash
    npm start
+
+
+After installation 
+open this link: localhost:3000
