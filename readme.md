@@ -56,7 +56,7 @@ Follow these steps to set up the compiler on your Android device using Termux:
 
 ---
 
-## Installation on CMD (Windows)
+## Installation on windows (cmd)
 
 Follow these steps to set up the compiler on your Windows os using CMD:
 
