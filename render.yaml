@@ -11,4 +11,3 @@ services:
         value: production
     routes:
       - type: route
-        path: /
