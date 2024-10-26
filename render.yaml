@@ -1,0 +1,16 @@
+version: 1
+services:
+  - type: web
+    name: c_compiler
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    routes:
+      - type: route
+        name: Default Route
+        path: /
+        service: c_compiler
