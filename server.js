@@ -6,7 +6,8 @@ const { c } = require('compile-run');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = 3000;
+
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use(express.static('public'));
@@ -17,10 +18,15 @@ app.post('/run', async (req, res) => {
         const result = await c.runSource(sourcecode);
         res.json(result);
     } catch (err) {
-        res.json({ error: err.message });
+        console.error('Error running source code:', err.message); // Log the error
+        res.status(500).json({ error: err.message });
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Server is running on http://localhost:${PORT}`);
+    });
+}
+
+module.exports = app; 
