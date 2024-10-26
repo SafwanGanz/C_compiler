@@ -11,6 +11,4 @@ services:
         value: production
     routes:
       - type: route
-        name: Default Route
         path: /
-        service: c_compiler
